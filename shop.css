@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-top: 150px;
+
+}
+/* Header shop Related Style */
+.shop-container{
+    
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shop-photo{
+    width: 500px;
+    height: 560px;
+    
+}
+.shop-img{
+    position: relative;
+    top: 31px;
+    
+}
+.shop-title{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+.shop-des{
+    width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+
+}
+.btn{
+    border-radius: 8px;
+    background-image: linear-gradient(45deg,tomato,fuchsia);
+    display: inline-flex;
+    padding: 20px 43px;
+    color: f;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.btn:hover{
+    background-color: darkgreen;
+    color: black;
+}
+
+/* Bonus Section */
+
+
+.flower-size{
+    width: 157px;
+    height: 235px;
+}
+.flower-pink{
+width: 300px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+display: flex;
+justify-content: space-around;
+align-items: self-end;
+
+}
+.flower-red{
+width: 300px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+display: flex;
+justify-content: space-around;
+align-items: self-end;
+
+}
+.flower-yellow{
+width: 300px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+display: flex;
+justify-content: space-around;
+align-items: self-end;
+
+}
+
+.flower-container{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 30px;
+}
+.section-flower{
+height: 100vh;
+width: 80%;
+margin: auto;
+display: flex;
+flex-direction: column;
+
+}
+.flower-title{
+font-size: 25px;
+text-align: center;
+margin-bottom: 24px;
+
+
+}
+.flower-info{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+margin-left: 330px;
+font-weight: 400;
+width: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+
+.name-container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-decoration: underline;
+font-size: 20px;
+margin-top: -0px;
+margin-bottom: 40px;
+
+}
+
+/* Hot-dell Section */
+.hot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.hot-deal{
+    width: 600px;
+    display: flex;
+
+}
+.hot-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.primary-color{
+    color: red;
+}
+.hot-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 30px;
+
+
+}
+.hot-photo{
+    width: 318px;
+    height: 420px;
+
+}
+ 
+/* instagram Section */
+.ins-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.ins-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 550px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.ins-img{
+    width: 250px;
+    height: 250x;
+
+}
+.ins-photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.instagram-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+/* Latest Deal */
+.latest-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.latest-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    
+    margin-bottom: 15px;
+    
+}
+.email{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.latest-deal{
+    width: 80%;
+    margin: auto;
+    background-image: url(Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.form{
+    margin-bottom: 200px;
+    position: relative;
+    top: 50px;
+}
+
+
+/* footer section */
+.flowershop{
+   
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 449px;
+    color: #FFF;
+}
+.f-title{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+small{
+
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+
+
+}
